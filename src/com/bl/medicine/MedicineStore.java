@@ -5,21 +5,17 @@ import java.util.List;
 
 public class MedicineStore {
 
-	private List medicineList = new ArrayList();
+	private List<Medicine> medicineList = new ArrayList();
 
 	public List getmedicineList() {
 		return medicineList;
 	}
 
 	public void add(Medicine medicine) {
+		medicineList.add(medicine);
 	}
-
-	
 	
 	public void remove(Medicine medicine) {
 		medicineList.remove(medicine);
 	}
-	
-	
-	
 }
