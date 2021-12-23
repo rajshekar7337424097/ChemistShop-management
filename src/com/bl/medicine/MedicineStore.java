@@ -1,3 +1,4 @@
+//DataLayer
 package com.bl.medicine;
 
 import java.util.ArrayList;
@@ -18,4 +19,16 @@ public class MedicineStore {
 	public void remove(Medicine medicine) {
 		medicineList.remove(medicine);
 	}
+	
+	
+	public Medicine getMedicine(String medicineName) {
+		for (int i = 0; i < medicineList.size(); i++) {
+			if(medicineList.get(i).Name.equalsIgnoreCase(medicineName) ) {
+				return medicineList.get(i);
+			}
+			
+		}
+		return null;
+	}
+	
 }

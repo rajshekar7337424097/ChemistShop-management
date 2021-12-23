@@ -9,7 +9,7 @@ public class Medicine {
 	enum Type {
 		HOMEIOPATHY, ALLOPATHY, AYURVEDIC
 	}
-	
+		String Name;
 		String companyName;
 		Date mfgDate;
 		Date ExpiryDate;
@@ -18,7 +18,7 @@ public class Medicine {
 		
 		@Override
 		public String toString() {
-			return "Medicine [brand=" + companyName + ", mfgDate=" + mfgDate + ",medicineType="+ medicineType +" ExpiryDate=" + ExpiryDate + ", composition="
+			return "Medicine [medicineName="+ Name +" , brand=" + companyName + ", mfgDate=" + mfgDate + ",medicineType="+ medicineType +" ExpiryDate=" + ExpiryDate + ", composition="
 					+ Arrays.toString(composition) + "]";
-		}
+		}	
 }

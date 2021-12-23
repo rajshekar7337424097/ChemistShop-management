@@ -2,6 +2,7 @@ package com.bl.medicine;
 
 public class Frozen extends Medicine{
 	Frozen() {
+		Name = "Frozen";
 		companyName = "GSK";
 		composition = new String[3];
 		composition[0] = "sssss";

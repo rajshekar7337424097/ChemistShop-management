@@ -2,6 +2,7 @@ package com.bl.medicine;
 
 public class Advil extends Medicine{
 	Advil() {
+		Name = "Advil";
 		companyName = "GSK";
 		composition = new String[3];
 		composition[0] = "aaaa";

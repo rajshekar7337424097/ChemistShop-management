@@ -4,6 +4,7 @@ import java.sql.Date;
 
 public class Coldact extends Medicine{
 	Coldact() {
+		Name = "Coldact";
 		companyName = "Reddy's Lab";
 		composition = new String[3];
 		composition[0] = "pepper";
